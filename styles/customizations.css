@@ -131,7 +131,7 @@ article h3 {
 	padding-bottom: .25em;
 }
 
-section {
+form{
 	width: 525px;
 	float: right;
 
@@ -186,29 +186,6 @@ main > h2{
 
 	padding-top: .5em;
 	padding-bottom: .25em;
-}
-
-main > h3{
-	font-size: 105%;
-
-	padding-bottom: .25em;
-}
-
-main blockquote{
-	font-style: italic;
-
-	padding-left: 2em;
-	padding-right: 2em;
-}
-
-main ul{
-	padding-bottom: .25;
-
-	padding-left: 1.25em;
-}
-
-main li{
-	padding-bottom: .35em;
 }
 
 footer{

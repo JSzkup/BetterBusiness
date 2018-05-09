@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Better Business Cards</title>
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/main.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="../images/BBlogo.jpg" alt="Logo" height="85">
+			<h2>Better Business, Business Cards!</h2>
+			<h3>Believe us, theyre not <u>all</u> the same.</h3>
+		</header>
+
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="../index.html"> Home</a></li>
+				<li><a href="products.html"> Products</a></li>
+				<li><a href="services.html"> Services</a></li>
+				<li><a href="customizations.html"> Customizations</a></li>
+				<li><a href="aboutus.html"> About Us</a></li>
+			</ul>
+		</nav>
+
+		<main>
+            <h1>Ordering Info</h1>
+            <form name="some_server_code" action="academic_reg.php" method="post">
+                    <label class="fix" for="first">   First Name:   </label> <span>*</span> <input type="text"  id="first"   name="FIrst Name" accesskey="N" autofocus required><br>
+                    <label class="fix" for="last">    Last Name:    </label> <span>*</span> <input type="text"  id="last"    name="Last Name" accesskey="L" required><br>
+                    <label class="fix" for="address"> Address:      </label> <span>*</span> <input type="text"  id="address" name="address"required><br>
+                    <label class="fix" for="email">   Email:        </label> <span>*</span> <input type="email" id="email"   name="email" required><br>
+                    <label class="fix" for="url">     Website:      </label>                <input type="url"   id="url"     name="website"><br>
+                    <label class="fix" for="tel">     Phone Number: </label>                <input type="tel" name="phone" id="tel" 
+                                                                                                pattern="\d{3}[\-]\d{3}[-\]\d{4}" 
+                                                                                                title="###-###-#### 123-123-1234"> <br>
+        
+                    <fieldset>
+                        <legend Select All levels of education></legend>
+                            <input type="checkbox" name="education" value="undergrad" id="undergrad"> Undergrad <br>	
+                            <input type="checkbox" name="education" value="grad" id="grad"> Grad <br>
+                            <input type="checkbox" name="education" value="postgrad" id="postgrad"> Postgrad <br>
+                    </fieldset>
+                    <br>
+                    Graduation Date: <input type="date" name="month">
+                    <br>
+                    Submit my file: <input type="file" name"fileupload" accept="image/gif, image/jpg">
+
+                    <br>
+                    <select name="more_code_we_dont_know_yet">
+                            <optgroup label="Framed">
+                                <option value="10">10"</option>
+                                <option value="12">12"</option>
+                            <optgroup label="Not Framed">
+                                <option value="10">10"</option>
+                                <option value="12">12"</option>
+                    </optgroup>
+                    <br><br>
+    
+    
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+            </form>
+        </main>
+		
+		<footer>
+			<p>&copy;(c) 2018, Better Business (Business and Co.), Levitown, PA 65711</p>
+		</footer>
+	</body>
+
+</html>
