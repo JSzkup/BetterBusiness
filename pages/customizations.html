@@ -29,16 +29,15 @@
 
 		<main>
             <h1>Ordering Info</h1>
-            <p>We do the work for you</p>
-            <p>and all you have to do is pay us!</p>
+            <p>We do the work for you and all you have to do is pay us!</p>
 
-            <form name="backendstuff" action="academic_reg.php" method="post">
+            <form name="backendstuff" action="order_info.php" method="post">
                     <label class="fix" for="first">   First Name:   </label> <span>*</span> <input type="text"  id="first"   name="First Name" autofocus required><br>
                     <label class="fix" for="last">    Last Name:    </label> <span>*</span> <input type="text"  id="last"    name="Last Name" required><br>
                     <label class="fix" for="address"> Address:      </label> <span>*</span> <input type="text"  id="address" name="address"required><br>
                     <label class="fix" for="email">   Email:        </label> <span>*</span> <input type="email" id="email"   name="email" required><br>
-                    <label class="fix" for="url">     Website:      </label>                <input type="url"   id="url"     name="website"><br>
-                    <label class="fix" for="tel">     Phone Number: </label>                <input type="tel" name="phone" id="tel" 
+                    <label class="fix" for="url">     Website:      </label> <span>*</span> <input type="url"   id="url"     name="website"><br>
+                    <label class="fix" for="tel">     Phone Number: </label> <span>*</span> <input type="tel" name="phone" id="tel" 
                                                                                                 pattern="\d{3}[\-]\d{3}[-\]\d{4}" 
                                                                                                 title="###-###-#### 123-123-1234"> <br>
                     <label class="fix" for="cc">      Credit Card:  </label> <span>*</span> <input type="cc" id="cc"   name="email" required><br>
