@@ -29,43 +29,47 @@
 
 		<main>
             <h1>Ordering Info</h1>
+            <p>We do the work for you</p>
+            <p>and all you have to do is pay us!</p>
 
             <form name="some_server_code" action="academic_reg.php" method="post">
-                    <label class="fix" for="first">   First Name:   </label> <span>*</span> <input type="text"  id="first"   name="FIrst Name" accesskey="N" autofocus required><br>
-                    <label class="fix" for="last">    Last Name:    </label> <span>*</span> <input type="text"  id="last"    name="Last Name" accesskey="L" required><br>
+                    <label class="fix" for="first">   First Name:   </label> <span>*</span> <input type="text"  id="first"   name="First Name" autofocus required><br>
+                    <label class="fix" for="last">    Last Name:    </label> <span>*</span> <input type="text"  id="last"    name="Last Name" required><br>
                     <label class="fix" for="address"> Address:      </label> <span>*</span> <input type="text"  id="address" name="address"required><br>
                     <label class="fix" for="email">   Email:        </label> <span>*</span> <input type="email" id="email"   name="email" required><br>
                     <label class="fix" for="url">     Website:      </label>                <input type="url"   id="url"     name="website"><br>
                     <label class="fix" for="tel">     Phone Number: </label>                <input type="tel" name="phone" id="tel" 
                                                                                                 pattern="\d{3}[\-]\d{3}[-\]\d{4}" 
                                                                                                 title="###-###-#### 123-123-1234"> <br>
+                    <label class="fix" for="cc">      Credit Card:  </label> <span>*</span> <input type="cc" id="cc"   name="email" required><br>
         
                     <fieldset>
-                        <legend Select All levels of education></legend>
-                            <input type="checkbox" name="education" value="undergrad" id="undergrad"> Undergrad <br>	
-                            <input type="checkbox" name="education" value="grad" id="grad"> Grad <br>
-                            <input type="checkbox" name="education" value="postgrad" id="postgrad"> Postgrad <br>
+                        <legend What line of business are you in?></legend>
+                            <input type="checkbox" name="business" value="Food" id="Food"> Food <br>	
+                            <input type="checkbox" name="business" value="Beverage" id="Beverage"> Beverage <br>
+                            <input type="checkbox" name="business" value="Car" id="Car"> Car <br>
+                            <input type="checkbox" name="business" value="Tech" id="Tech"> Tech <br>
+                            <input type="checkbox" name="business" value="Health" id="Health"> Health <br>
+                                                        
                     </fieldset>
                     <br>
-                    Graduation Date: <input type="date" name="month">
-                    <br>
-                    Submit my file: <input type="file" name"fileupload" accept="image/gif, image/jpg">
+                    Submit logo for card: <input type="file" name"fileupload" accept="image/gif, image/jpg">
 
                     <br>
-                    <select name="more_code_we_dont_know_yet">
-                            <optgroup label="Framed">
-                                <option value="10">10"</option>
-                                <option value="12">12"</option>
-                            <optgroup label="Not Framed">
-                                <option value="10">10"</option>
-                                <option value="12">12"</option>
+                     Size options: <select name="more_code_we_dont_know_yet">
+                            <optgroup label="small">
+                                <option value="s">3.5x2 inches"</option>
+                            <optgroup label="Large">
+                                <option value="l">8.5x11 inches"</option>
                     </optgroup>
                     <br><br>
     
-    
                     <input type="submit" name="submit" value="submit">
                     <input type="reset" name="reset" value="reset">
+
             </form>
+
+            <h2>info with an <span>*</span> is required</h2>
         </main>
 		
 		<footer>

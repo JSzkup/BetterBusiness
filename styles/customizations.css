@@ -98,9 +98,8 @@ main {
 	clear: left;
 }
 
-main h1 {
-    color: goldenrod;
-    padding-left: 2%;
+main p {
+	padding-left: 2%;
 }
 
 span {
@@ -149,17 +148,18 @@ main p{
 
 main > h1{
 	font-size: 150%;
+	color: goldenrod;
+    padding-left: 2%;
 
 	padding-top: .3em;
 	padding-bottom: .3em;
 }
 
 main > h2{
-	font-size: 130%;
-	color: goldenrod;
+	font-size: 75%;
+	padding-left: 3%;
+	padding-bottom: 1%;
 
-	padding-top: .5em;
-	padding-bottom: .25em;
 }
 
 footer{
