@@ -39,7 +39,7 @@ header h2 {
 
 header h3{
 	font-size: 130%;
-	font-style: italic;
+    font-style: italic;
 }
 
 #nav_menu ul {
@@ -153,25 +153,37 @@ textarea {
     height: 20%;
 }
 
+div {
+    width: 94%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%
+}
+
 table {
     border-collapse: collapse;
     border: 1px solid black;
     margin: 10px;
     white-space: nowrap;
 }
+
 thead, tfoot {
     background-color: goldenrod;
     font-weight: bold;
     border: 1px solid black;
 }
+
 th, td {
     padding: .2em .7em;
     text-align: right;
     border: 1px solid black;
 }
+
 th:first-child, td:first-child {
     text-align: left;
 }
+
 th:nth-child(2), td:nth-child(2) {
     text-align: center;
 }
