@@ -93,122 +93,87 @@ body {
 
 }
 
-tiny {
-	font-size: 45%;
+main p {
+    padding-left: 2%;
+    padding-bottom: .5em;
 }
 
-/* the styles for the section */
-main {
-	clear: left;
+span {
+    color:red;
 }
 
-article {
-	padding-top: .5em;
-	padding-bottom: .5em;
-
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+label {
+    float:left;
+    width:10em;
+    text-align:right;
 }
 
-article p { /* font was bolded and too large, not sure why added this. */
-	font-size: 75%;
-	font-weight: normal;
+input {
+    margin-bottom: .5em;
+    margin-left: .5em;
 }
 
-article img {
-	float: right;
-	margin: 5px 0px 5px 5px;
-
-	border: 1px solid black;
-}
-
-article h2 {
-	padding-top: 0;
-}
-
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
-}
-
-section {
+form{
 	width: 525px;
-	float: right;
 
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
 
-aside {
-	width: 215px;
-	float: right;
-
-	padding-left: 20px;
-	padding-bottom: 20px;
+main {
+    padding-left: 5.5%;
+    padding-bottom: 1.5%;
 }
 
-aside h3 { 
-	font-size: 105%;
-	padding-bottom:  .25em;
-}
-
-aside img {
-	padding-bottom: 1em;
-}
-
-section h2, aside h2{
-	font-size: 130%;
-	color: goldenrod;
-
-	padding-top: .5em;
-	padding-bottom: .25em;
-}
-
-main aside img{
-	padding-bottom: 1em;
-}
-
-main p{
-	padding-bottom: .5em;
-}
-
-main > h1{
+main  h1{
 	font-size: 150%;
+	color: goldenrod;
 
 	padding-top: .3em;
 	padding-bottom: .3em;
 }
 
-main > h2{
-	font-size: 130%;
-	color: goldenrod;
+main  h2{
+	font-size: 75%;
+	padding-left: 3%;
+	padding-bottom: 1%;
 
-	padding-top: .5em;
-	padding-bottom: .25em;
 }
 
-main > h3{
-	font-size: 105%;
-
-	padding-bottom: .25em;
+main h3 {
+    font-weight: normal;
+    padding-bottom: 1.5%;
+    padding-top: 2%;
 }
 
-main blockquote{
-	font-style: italic;
-
-	padding-left: 2em;
-	padding-right: 2em;
+textarea {
+    padding-bottom: 5%;
+    width: 90%;
+    height: 20%;
 }
 
-main ul{
-	padding-bottom: .25;
-
-	padding-left: 1.25em;
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px;
+    white-space: nowrap;
 }
-
-main li{
-	padding-bottom: .35em;
+thead, tfoot {
+    background-color: goldenrod;
+    font-weight: bold;
+    border: 1px solid black;
+}
+th, td {
+    padding: .2em .7em;
+    text-align: right;
+    border: 1px solid black;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
 }
 
 footer{

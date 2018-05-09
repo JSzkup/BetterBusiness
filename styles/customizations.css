@@ -93,11 +93,6 @@ body {
 
 }
 
-/* the styles for the section */
-main {
-	clear: left;
-}
-
 main p {
 	padding-left: 2%;
 }
@@ -125,23 +120,6 @@ form{
 	padding-bottom: 20px;
 }
 
-aside h3 { 
-	font-size: 105%;
-	padding-bottom:  .25em;
-}
-
-aside img {
-	padding-bottom: 1em;
-}
-
-section h2, aside h2{
-	font-size: 130%;
-	color: goldenrod;
-
-	padding-top: .5em;
-	padding-bottom: .25em;
-}
-
 main p{
 	padding-bottom: .5em;
 }
@@ -162,6 +140,12 @@ main > h2{
 
 }
 
+textarea {
+    padding-bottom: 5%;
+    width: 90%;
+    height: 20%;
+}
+
 footer{
 	text-align: center;
 	color: white;
@@ -172,7 +156,7 @@ footer{
 	background-color:	black;
 }
 
-footer > p{
+footer p{
 	padding-top: 1em;
 	padding-bottom: 1em;
 }

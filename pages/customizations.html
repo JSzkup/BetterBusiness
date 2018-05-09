@@ -32,7 +32,7 @@
             <p>We do the work for you</p>
             <p>and all you have to do is pay us!</p>
 
-            <form name="some_server_code" action="academic_reg.php" method="post">
+            <form name="backendstuff" action="academic_reg.php" method="post">
                     <label class="fix" for="first">   First Name:   </label> <span>*</span> <input type="text"  id="first"   name="First Name" autofocus required><br>
                     <label class="fix" for="last">    Last Name:    </label> <span>*</span> <input type="text"  id="last"    name="Last Name" required><br>
                     <label class="fix" for="address"> Address:      </label> <span>*</span> <input type="text"  id="address" name="address"required><br>
@@ -44,7 +44,7 @@
                     <label class="fix" for="cc">      Credit Card:  </label> <span>*</span> <input type="cc" id="cc"   name="email" required><br>
         
                     <fieldset>
-                        <legend What line of business are you in?></legend>
+                        <legend> What line of business are you in?</legend>
                             <input type="checkbox" name="business" value="Food" id="Food"> Food <br>	
                             <input type="checkbox" name="business" value="Beverage" id="Beverage"> Beverage <br>
                             <input type="checkbox" name="business" value="Car" id="Car"> Car <br>
@@ -56,20 +56,23 @@
                     Submit logo for card: <input type="file" name"fileupload" accept="image/gif, image/jpg">
 
                     <br>
-                     Size options: <select name="more_code_we_dont_know_yet">
+                     Size options: <select name="backend_server code">
                             <optgroup label="small">
                                 <option value="s">3.5x2 inches"</option>
                             <optgroup label="Large">
                                 <option value="l">8.5x11 inches"</option>
                     </optgroup>
                     <br><br>
+
+                    <textarea name="dontbotherdoingthese" placeholder="Enter special instrutions"></textarea>
+                    <br>
     
                     <input type="submit" name="submit" value="submit">
                     <input type="reset" name="reset" value="reset">
 
             </form>
 
-            <h2>info with an <span>*</span> is required</h2>
+            <h2>Fields containing a <span>*</span> is required</h2>
         </main>
 		
 		<footer>
